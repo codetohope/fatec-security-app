@@ -11,6 +11,7 @@ class ChartBar extends Component{
                 'Latrocínio', 'Estupro'],
                 datasets:[
                     {
+                        label:'',
                         data:[
                             617594,
                             181045,
