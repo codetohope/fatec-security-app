@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ChartLine from './components/ChartLine';
 import ChartBar from './components/ChartBar';
 import GeneralTable from './components/GeneralTable';
+import Vision from './components/Vision';
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
         <GeneralTable />
         <ChartBar />
         <ChartLine />
+        <Vision />
       </div>
     )
   }
