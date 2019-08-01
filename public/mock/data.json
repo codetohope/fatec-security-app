@@ -1,0 +1,98 @@
+[
+    {
+        "dp": 1,
+        "name": "HOMICÍDIO DOLOSO",
+        "qtyOcurrencies": 45,
+        "trend": {
+            "lastQtyOcurrencies": 56
+        }
+    },
+    {
+        "dp": 1,
+        "name": "ROUBO DE VEÍCULO",
+        "qtyOcurrencies": 41,
+        "trend": {
+            "lastQtyOcurrencies": 40
+        }
+    },
+    {
+        "dp": 1,
+        "name": "FURTO DE VEÍCULO",
+        "qtyOcurrencies": 34,
+        "trend": {
+            "lastQtyOcurrencies": 67
+        }
+    },
+    {
+        "dp": 2,
+        "name": "ROUBO A BANCO",
+        "qtyOcurrencies": 44,
+        "trend": {
+            "lastQtyOcurrencies": 53
+        }
+    },
+    {
+        "dp": 2,
+        "name": "LESÃO CORPORAL SEGUIDA DE MORTE",
+        "qtyOcurrencies": 59,
+        "trend": {
+            "lastQtyOcurrencies": 56
+        }
+    },
+    {
+        "dp": 4,
+        "name": "LATROCÍNIO",
+        "qtyOcurrencies": 23,
+        "trend": {
+            "lastQtyOcurrencies": 20
+        }
+    },
+    {
+        "dp": 4,
+        "name": "HOMICÍDIO CULPOSO POR ACIDENTE DE TRÂNSITO",
+        "qtyOcurrencies": 29,
+        "trend": {
+            "lastQtyOcurrencies": 21
+        }
+    },
+    {
+        "dp": 4,
+        "name": "LESÃO CORPORAL DOLOSA",
+        "qtyOcurrencies": 35,
+        "trend": {
+            "lastQtyOcurrencies": 29
+        }
+    },
+    {
+        "dp": 5,
+        "name": "ESTUPRO",
+        "qtyOcurrencies": 12,
+        "trend": {
+            "lastQtyOcurrencies": 19
+        }
+    },
+    {
+        "dp": 5,
+        "name": "ROUBO DE CARGA",
+        "qtyOcurrencies": 17,
+        "trend": {
+            "lastQtyOcurrencies": 23
+        }
+    },
+    {
+        "dp": 3,
+        "name": "LESÃO CORPORAL SEGUIDA DE MORTE",
+        "qtyOcurrencies": 29,
+        "trend": {
+            "lastQtyOcurrencies": 25
+        }
+    },
+    {
+        "dp": 3,
+        "name": "TENTATIVA DE HOMICÍDIO",
+        "qtyOcurrencies": 13,
+        "trend": {
+            "lastQtyOcurrencies": 5
+        }
+    }
+]
