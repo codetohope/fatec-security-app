@@ -24,6 +24,10 @@ class GeneralTable extends Component {
         )
     }
 
+    getRowProps = (row) => row.original.qtyOcurrencies > row.original.trend.lastQtyOcurrencies?
+        <span>{row.value} <FontAwesomeIcon icon={faAngleDoubleUp} color="red" /></span>:
+        <span>{row.value} <FontAwesomeIcon icon={faAngleDoubleDown} color="green" /></span>
+
     render() {
         return (
             <ReactTable
@@ -37,11 +41,7 @@ class GeneralTable extends Component {
                         {
                             Header: () => this.getHeaderProps('CRIME'),
                             accessor: 'name',
-                            Cell: row =>  {
-                                return row.original.qtyOcurrencies > row.original.trend.lastQtyOcurrencies?
-                                <span>{row.value} <FontAwesomeIcon icon={faAngleDoubleUp} color="red" /></span>:
-                                <span>{row.value} <FontAwesomeIcon icon={faAngleDoubleDown} color="green" /></span>
-                            }
+                            Cell: row => this.getRowProps(row)
                         },
                         {
                             Header: () => this.getHeaderProps('OCORRÊNCIAS'),
