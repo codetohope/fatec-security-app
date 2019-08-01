@@ -9,6 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <GeneralTable />
+        <hr/>
         <ChartBar />
         <ChartLine />
         <Vision />
